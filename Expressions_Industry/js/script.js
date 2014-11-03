@@ -6,11 +6,17 @@
 
 // Calculating the total number of pixels in a percentage of a workspace when given the customary (US) measurements
 
+// Adding an extra variable that is not needed but adding for extra format
+var name = prompt("What is your name?");
+alert("Hello " + name + ".")
 //declaring the variables needed
 //the variables needed are height, width, pixels for each, and percentage that the user wants to know the number of pixels of.
-var height = 1;
-var width = 1;
+var height;
+var width;
 var percent;
+
+//adding in prompts here.
+
 
 //this variable will be used to calculate the variables height into pixels and width into pixels
 var standardDPI = 72; // This is the standard for web that is able to be used by mac and windows computers.
@@ -25,5 +31,5 @@ height *= standardDPI;
 width *= standardDPI;
 
 //checking to see if the height and width are calculating correctly
-console.log(width);
-console.log(height);
+//console.log(width);
+//console.log(height);
