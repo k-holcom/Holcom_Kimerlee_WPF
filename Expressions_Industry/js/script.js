@@ -20,3 +20,6 @@ percent /= 100;
 
 //to calculate the height in pixels you must multiply the height by standardDPI
 height *= standardDPI;
+
+//calculate the width in pixels by multiplying it by standardDPI
+width *= standardDPI;
