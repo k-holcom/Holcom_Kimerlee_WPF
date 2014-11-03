@@ -8,8 +8,8 @@
 
 //declaring the variables needed
 //the variables needed are height, width, pixels for each, and percentage that the user wants to know the number of pixels of.
-var height;
-var width;
+var height = 1;
+var width = 1;
 var percent;
 
 //this variable will be used to calculate the variables height into pixels and width into pixels
@@ -23,3 +23,7 @@ height *= standardDPI;
 
 //calculate the width in pixels by multiplying it by standardDPI
 width *= standardDPI;
+
+//checking to see if the height and width are calculating correctly
+console.log(width);
+console.log(height);
