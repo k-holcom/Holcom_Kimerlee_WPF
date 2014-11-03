@@ -22,6 +22,8 @@ height = prompt("Please enter in the height of the work space you are using in i
 width = prompt("Please endter the width of the work space you are using in inches: (i.e. 14.125)");
 //checking to see if the width was stored correctly
 //console.log(width); // works correctly
+percent = prompt("What percentage of the work space are you interested in knowing the number of pixels:");
+
 
 //this variable will be used to calculate the variables height into pixels and width into pixels
 var standardDPI = 72; // This is the standard for web that is able to be used by mac and windows computers.
