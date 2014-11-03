@@ -26,3 +26,12 @@ slicesPerPerson = (numOfPizzas * slicesPerPizza)/numOfPeople;
 //printing to console
 //using concatenating to create the sentence "Each person ate X slices of pizza at the party."
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+
+//Slice of Pie Part II
+//using old variables of slicesPerPizza, numOfPeople, numOfPizzas
+//Declaring a new result variable. This variable is for number of slices Sparky gets.
+var slicesForSparky;
+//calculating how many slices Sparky gets by using the modulo operator
+slicesForSparky = (numOfPizzas * slicesPerPizza) % numOfPeople;
+//printing "Sparky got X slices of pizza." by using concatenating.
+console.log("Sparky got " + slicesForSparky + " slices of pizza.");
