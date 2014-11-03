@@ -16,7 +16,7 @@ var width;
 var percent;
 
 //adding in prompts here.
-
+height = ("Please enter in the height of the work space you are using in inches: (i.e. 9.75)");
 
 //this variable will be used to calculate the variables height into pixels and width into pixels
 var standardDPI = 72; // This is the standard for web that is able to be used by mac and windows computers.
