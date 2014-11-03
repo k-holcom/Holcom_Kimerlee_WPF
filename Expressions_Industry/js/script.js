@@ -46,6 +46,9 @@ var decimalPercentFormat = percent / 100;
 //must declare a result variable
 var areaOfPercentage = areaPixels * decimalPercentFormat;
 //checking to see if calculation is correct.
-console.log(areaOfPercentage);
+//console.log(areaOfPercentage.toFixed(1)); // formatted the output using .toFixed()
+
+//telling the user the number of pixels in a certain percentage of their workspace.
+alert("The number of pixels in " + percent + "% of your work space is " + areaOfPercentage.toFixed(1) + " pixels.");
 
 
