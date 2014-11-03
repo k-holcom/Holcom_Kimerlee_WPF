@@ -23,7 +23,8 @@ width = prompt("Please endter the width of the work space you are using in inche
 //checking to see if the width was stored correctly
 //console.log(width); // works correctly
 percent = prompt("What percentage of the work space are you interested in knowing the number of pixels:");
-
+// checking the prompt to see if it stored value correctly.
+//console.log(percent); //works correctly
 
 //this variable will be used to calculate the variables height into pixels and width into pixels
 var standardDPI = 72; // This is the standard for web that is able to be used by mac and windows computers.
