@@ -16,3 +16,6 @@ var percent;
 
 //this variable will be used to calculate the variables heightInPixels and widthInPixels
 var standardDPI = 72; // This is the standard for web that is able to be used by mac and windows computers.
+
+//this calculation will be used to help calculate the pixels in the final calculation. This expression will take the percentage and turn it into a decimal so it can be used in a calculation.
+percent /= 100;
