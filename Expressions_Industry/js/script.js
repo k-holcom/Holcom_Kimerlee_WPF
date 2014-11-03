@@ -45,3 +45,7 @@ var decimalPercentFormat = percent / 100;
 //now calculating the area of the percentage wanted.
 //must declare a result variable
 var areaOfPercentage = areaPixels * decimalPercentFormat;
+//checking to see if calculation is correct.
+console.log(areaOfPercentage);
+
+
