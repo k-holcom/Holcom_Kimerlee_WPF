@@ -50,9 +50,35 @@ console.log(totalSpent.toFixed(2));
 */
 //calculating the weekly average
 avgWeeklyBill = totalSpent / 5;
-/*used this line again to double check to see if the total came out right and once again had to use the avgWeeklyBill
+/*used this line again to double check to see if the total came out right and once again had to use the avgWeeklyBill.toFixed(2)
 to keep the decimal places to 2.
 console.log(avgWeeklyBill.toFixed(2));
 */
 //printing "You have spent a total of $X on groceries over 5 weeks. That is an average of $X per week." to the console.
 console.log("You have spent a total of $" + totalSpent.toFixed(2) + " on groceries over 5 weeks. That is an average of $" + avgWeeklyBill.toFixed(2) + " per week.");
+
+//Discounts
+//declaring the given variables
+var originalPrice = 500;
+var discountPercent = 20;
+var description = "corner desk";
+var salesTaxPercent = 6;
+//declaring result variables
+var totalWithTax;
+var totalWithoutTax;
+//calculating the discount price
+//must find out what the percentage is in a way that can be used in a math problem which is a decimal like .20 (20%)
+var discount = discountPercent / 100;
+//must find the same number for the sales tax percentage by doing the same.
+var salesTax = salesTaxPercent / 100;
+//calculating the sales price without the tax
+totalWithoutTax = originalPrice - (originalPrice * discount);
+/*used this line to check the totalWithoutTax calculation. Putting in the .toFixed(2) so that in the future if the numbers ever changed, they can still be in the right format.
+console.log(totalWithoutTax.toFixed(2));
+*/
+totalWithTax = (totalWithoutTax * salesTax) + totalWithoutTax;
+/*used this line to check the totalWithTax calculation. Putting in the .toFixed(2) so that in the future if the numbers ever changed, they can still be in the right format.
+console.log(totalWithTax.toFixed(2));
+*/
+//printing "Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax." to the console and adding the .toFixed(2) to keep the format the same.
+console.log("Your " + description + " was originally $" + originalPrice.toFixed(2) + ", but after a " + discountPercent + "% discount, it is now $" + totalWithoutTax.toFixed(2) + " without tax, and $" + totalWithTax.toFixed(2) + " with tax.");
