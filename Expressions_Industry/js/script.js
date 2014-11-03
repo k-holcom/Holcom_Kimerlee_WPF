@@ -45,3 +45,5 @@ width *= standardDPI;
 //calculating the area of the whole work space
 //must define the result variable
 var totalArea = height * width;
+//checking the calculations of totalArea
+console.log(totalArea);
