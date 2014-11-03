@@ -35,3 +35,24 @@ var slicesForSparky;
 slicesForSparky = (numOfPizzas * slicesPerPizza) % numOfPeople;
 //printing "Sparky got X slices of pizza." by using concatenating.
 console.log("Sparky got " + slicesForSparky + " slices of pizza.");
+
+//Average Shopping Bill
+//declaring the given variables
+var groceryBills = [80.67, 92.12, 66.95, 75.05, 103.99];
+//result variables declared
+var totalSpent;
+var avgWeeklyBill;
+//calculating the total amount
+totalSpent = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];
+/* used this line to double check to see if the total came out right had to use the totalSpent.toFixed(2) to keep the
+decimals to 2 places
+console.log(totalSpent.toFixed(2));
+*/
+//calculating the weekly average
+avgWeeklyBill = totalSpent / 5;
+/*used this line again to double check to see if the total came out right and once again had to use the avgWeeklyBill
+to keep the decimal places to 2.
+console.log(avgWeeklyBill.toFixed(2));
+*/
+//printing "You have spent a total of $X on groceries over 5 weeks. That is an average of $X per week." to the console.
+console.log("You have spent a total of $" + totalSpent.toFixed(2) + " on groceries over 5 weeks. That is an average of $" + avgWeeklyBill.toFixed(2) + " per week.");
