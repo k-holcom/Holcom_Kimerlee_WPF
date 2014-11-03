@@ -28,11 +28,20 @@ width = prompt("What is the width of your web space (in inches)?");
 var pixelsWidth = width * standardDPI;
 //printing out the width in pixels (just checking calculations)
 //console.log(pixelsWidth);
+
 //asking for the percentage they want to know.
 percent = prompt("What percentage of the screen do you want to know the area of?");
 //checking to see if percent was captured
 //console.log(percent);
+
 //declaring/defining area in pixels
 var areaPixels = pixelsHeight * pixelsWidth;
 //checking the calculations of the area
 //console.log(areaPixels);
+//calculating the number of pixels in the percentage but first must get the percentage in a decimal form.
+var decimalPercentFormat = percent / 100;
+//checking to see if the calculation is correct.
+//console.log(decimalPercentFormat);
+//now calculating the area of the percentage wanted.
+//must declare a result variable
+var areaOfPercentage = areaPixels * decimalPercentFormat;
