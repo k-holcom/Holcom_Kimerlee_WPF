@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8c9a8d3-ca27-404f-b713-2291040dace7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Personal/js/script.js" afterPath="$PROJECT_DIR$/Expressions_Personal/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Holcom_Kimerlee_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,9 +39,11 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0650289" vertical-offset="0" max-vertical-offset="692">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.1300578" vertical-offset="0" max-vertical-offset="692">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#72#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -630,9 +631,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0650289" vertical-offset="0" max-vertical-offset="692">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.1300578" vertical-offset="0" max-vertical-offset="692">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#72#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
