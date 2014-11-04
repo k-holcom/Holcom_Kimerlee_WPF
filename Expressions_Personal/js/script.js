@@ -23,3 +23,6 @@ var futureNumOfCups;
 name = prompt("What is your name?");
 //checking to see if the user's name has been stored correctly
 //console.log(name);//Works correctly
+
+//prompt asking for the number of cups a person drinks per day
+cupsPerDay = prompt("Hello " + name + "! How many cups of coffee do you drink per day?");
