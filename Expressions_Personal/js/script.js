@@ -12,7 +12,10 @@ var yearsIntoFuture;
 
 //declaring non-needed variables
 var name;
+var result = "If you drink " + cupsPerDay + " per day, you will drink " + cupsPerYear + ".";
+var result2 = "If you continue to drink this many per day, you will drink " + futureNumOfCups + " in the next " + yearsIntoFuture;
 
 //declaring the result variables
 var cupsPerYear;
 var futureNumOfCups;
+
