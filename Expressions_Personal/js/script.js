@@ -26,3 +26,6 @@ name = prompt("What is your name?");
 
 //prompt asking for the number of cups a person drinks per day
 cupsPerDay = prompt("Hello " + name + "! How many cups of coffee do you drink per day?");
+//checking to see if prompt comes out ok and if value stored correctly
+//console.log(cupsPerDay); //Works correctly
+
