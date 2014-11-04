@@ -21,3 +21,5 @@ var futureNumOfCups;
 
 //prompt for user's name
 name = prompt("What is your name?");
+//checking to see if the user's name has been stored correctly
+//console.log(name);//Works correctly
