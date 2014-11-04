@@ -52,3 +52,6 @@ var totalArea = height * width;
 var areaOfPercentage = totalArea * percent;
 //checking the calculations to see if they are correct
 //console.log(areaOfPercentage); //works correctly
+
+//adding alert to let the user know the answer.
+alert("The number of pixels in " + percent + "% of your work space is " + areaOfPercentage + " pixels.");
