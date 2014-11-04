@@ -50,3 +50,5 @@ var totalArea = height * width;
 
 //another result variable is for the area in question
 var areaOfPercentage = totalArea * percent;
+//checking the calculations to see if they are correct
+//console.log(areaOfPercentage); //works correctly
