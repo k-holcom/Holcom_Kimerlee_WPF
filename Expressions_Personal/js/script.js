@@ -19,3 +19,5 @@ var result2 = "If you continue to drink this many per day, you will drink " + fu
 var cupsPerYear;
 var futureNumOfCups;
 
+//prompt for user's name
+name = prompt("What is your name?");
