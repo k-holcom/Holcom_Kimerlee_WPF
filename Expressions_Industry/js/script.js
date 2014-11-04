@@ -46,4 +46,7 @@ width *= standardDPI;
 //must define the result variable
 var totalArea = height * width;
 //checking the calculations of totalArea
-console.log(totalArea);
+//console.log(totalArea); //works correctly
+
+//another result variable is for the area in question
+var areaOfPercentage = totalArea * percent;
