@@ -9,3 +9,6 @@
 var cupsPerDay;
 var daysPerWeekCoffeeDrank;
 var yearsIntoFuture;
+
+//declaring non-needed variables
+var name;
