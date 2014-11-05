@@ -30,4 +30,7 @@ cupsPerDay = prompt("Hello " + name + "! How many cups of coffee do you drink pe
 //console.log(cupsPerDay); //Works correctly
 
 //prompt asking for how many days a week the user drinks coffee.
-daysPerWeekCoffeeDrank = prompt(name + ", how many days a week do you drink coffee? (0-7)");
+daysPerWeekCoffeeDrank = prompt(name + ", how many days a week do you usually drink coffee? (0-7)");
+
+//testing to see if the variable was stored properly
+//console.log(daysPerWeekCoffeeDrank);//works correctly
