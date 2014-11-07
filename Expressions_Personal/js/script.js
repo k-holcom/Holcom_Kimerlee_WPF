@@ -38,3 +38,6 @@ daysPerWeekCoffeeDrank = prompt(name + ", how many days a week do you usually dr
 var cupsPerWeek = cupsPerDay * daysPerWeekCoffeeDrank;
 //testing to see if calculations work right.
 //console.log(cupsPerWeek);//calculations come out correctly
+
+//calculating per year
+cupsPerYear = cupsPerWeek * 52;
