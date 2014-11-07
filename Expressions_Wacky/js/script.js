@@ -46,3 +46,5 @@ var numCardsWidth = measurements[0] / measurements[2];
 
 //add numCardsWidth and numCardsHeight and mulitply by 2 to get numCardsPerimeter
 var numCardsPerimeter = 2 * numCardsHeight + 2 * numCardsWidth
+//tested numCardsPerimeter
+console.log(numCardsPerimeter);
