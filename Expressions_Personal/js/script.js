@@ -50,3 +50,8 @@ alert(name + ", if you drink " + cupsPerDay + " cups per day, for " + daysPerWee
 yearsIntoFuture = prompt("Enter a number of how many years into the future you would like to use to calculate how many cups you will drink:");
 //testing to see if value stored correctly
 //console.log(yearsIntoFuture);//works correctly
+
+//calculating the number of cups X years into the future
+futureNumOfCups = cupsPerYear * yearsIntoFuture;
+//testing the calculations
+//console.log(futureNumOfCups);//Works correctly
