@@ -54,3 +54,6 @@ var numCardsArea = numCardsHeight * numCardsWidth;
 //testing area
 //console.log(numCardsArea);//correct
 
+//converting back to original measurements (in feet) for wall dimensions
+measurements[0] = measurements[0] / 12;
+measurements[1] = measurements[1] / 12;
