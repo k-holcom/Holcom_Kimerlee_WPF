@@ -24,4 +24,7 @@ measurements[1] = measurements[1] * 12;
 
 //calculating the perimeter
 var perimeter;
-perimeter = 2(measurements[0] + measurements[1]);
+perimeter = measurements[0] + measurements[0] + measurements[1] + measurements[1];
+//testing perimeter
+//console.log(perimeter);//correct
+
