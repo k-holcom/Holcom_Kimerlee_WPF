@@ -31,6 +31,8 @@ cupsPerDay = prompt("Hello " + name + "! How many cups of coffee do you drink pe
 
 //prompt asking for how many days a week the user drinks coffee.
 daysPerWeekCoffeeDrank = prompt(name + ", how many days a week do you usually drink coffee? (0-7)");
-
 //testing to see if the variable was stored properly
 //console.log(daysPerWeekCoffeeDrank);//works correctly
+
+//creating the calculation expressions
+var cupsPerWeek = cupsPerDay * daysPerWeekCoffeeDrank;
