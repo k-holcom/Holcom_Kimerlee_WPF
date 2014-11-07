@@ -42,4 +42,7 @@ var numCardsHeight = measurements[1] / measurements[3];
 //figuring out how many cards to go across the width
 var numCardsWidth = measurements[0] / measurements[2];
 //testing calculation
-console.log(numCardsWidth);
+//console.log(numCardsWidth);//works
+
+//add numCardsWidth and numCardsHeight and mulitply by 2 to get numCardsPerimeter
+var numCardsPerimeter = 2 * numCardsHeight + 2 * numCardsWidth
