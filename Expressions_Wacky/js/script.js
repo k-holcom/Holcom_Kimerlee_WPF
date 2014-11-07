@@ -47,4 +47,10 @@ var numCardsWidth = measurements[0] / measurements[2];
 //add numCardsWidth and numCardsHeight and mulitply by 2 to get numCardsPerimeter
 var numCardsPerimeter = 2 * numCardsHeight + 2 * numCardsWidth
 //tested numCardsPerimeter
-console.log(numCardsPerimeter);
+//console.log(numCardsPerimeter);//works
+
+//calculate number of cards needed to cover entire wall
+var numCardsArea = numCardsHeight * numCardsWidth;
+//testing area
+//console.log(numCardsArea);//correct
+
