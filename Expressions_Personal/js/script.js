@@ -45,3 +45,6 @@ cupsPerYear = cupsPerWeek * 52;
 //console.log(cupsPerYear); //works correctly
 
 alert(name + ", if you drink " + cupsPerDay + " cups per day, for " + daysPerWeekCoffeeDrank + " days each week, you will drink " + cupsPerYear + " cups of coffee a year.");
+
+//creating a prompt for the number of years into the future user would like to know.
+yearsIntoFuture = prompt("Enter a number of how many years into the future you would like to use to calculate how many cups you will drink:");
