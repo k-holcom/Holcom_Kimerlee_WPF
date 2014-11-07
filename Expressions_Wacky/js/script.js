@@ -28,3 +28,6 @@ perimeter = measurements[0] + measurements[0] + measurements[1] + measurements[1
 //testing perimeter
 //console.log(perimeter);//correct
 
+//calculating area of wall
+var area;
+area = measurements[0] * measurements[1];
