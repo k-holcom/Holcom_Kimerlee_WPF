@@ -20,4 +20,7 @@ measurements[3] = prompt("What is the height of your note card?");
 measurements[0] = measurements[0] * 12;
 measurements[1] = measurements[1] * 12;
 //testing conversions
-console.log(measurements);
+//console.log(measurements); //correct
+
+//calculating the perimeter
+var perimeter;
