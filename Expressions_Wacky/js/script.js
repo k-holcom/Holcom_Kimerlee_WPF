@@ -19,3 +19,5 @@ measurements[3] = prompt("What is the height of your note card?");
 //must convert to same measurements to make it easy to do the mathematics multiplying the first two elements by 12(inches)
 measurements[0] = measurements[0] * 12;
 measurements[1] = measurements[1] * 12;
+//testing conversions
+console.log(measurements);
