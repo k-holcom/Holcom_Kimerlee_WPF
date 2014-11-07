@@ -8,10 +8,14 @@
 
 var measurements = [];
 //defining array elements
-measurements[0] = prompt("What is the width of your wall?");
-measurements[1] = prompt("What is the height of your wall?");
+measurements[0] = prompt("What is the width of your wall in feet?");
+measurements[1] = prompt("What is the height of your wall in feet?");
 measurements[2] = prompt("What is the width of your note card?");
 measurements[3] = prompt("What is the height of your note card?");
 
 //testing to see if the values go into the array
-console.log(measurements);
+//console.log(measurements);//works correctly
+
+//must convert to same measurements to make it easy to do the mathematics multiplying the first two elements by 12(inches)
+measurements[0] = measurements[0] * 12;
+measurements[1] = measurements[1] * 12;
