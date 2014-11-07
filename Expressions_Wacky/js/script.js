@@ -57,3 +57,8 @@ var numCardsArea = numCardsHeight * numCardsWidth;
 //converting back to original measurements (in feet) for wall dimensions
 measurements[0] = measurements[0] / 12;
 measurements[1] = measurements[1] / 12;
+
+//alerts
+alert("To cover the perimeter of a wall with a width of " + measurements[0] + " feet, and a height of " + measurements[1] + " feet you would need " + numCardsPerimeter + " note cards.");
+
+alert("To cover the entire wall with a width of " + measurements[0] + " feet, and a height of " + measurements[1] + " feet, you would need " + numCardsArea + " note cards.");
