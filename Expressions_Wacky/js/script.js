@@ -10,8 +10,8 @@ var measurements = [];
 //defining array elements
 measurements[0] = prompt("What is the width of your wall in feet?");
 measurements[1] = prompt("What is the height of your wall in feet?");
-measurements[2] = prompt("What is the width of your note card?");
-measurements[3] = prompt("What is the height of your note card?");
+measurements[2] = prompt("What is the width of your note card in inches?");
+measurements[3] = prompt("What is the height of your note card in inches?");
 
 //testing to see if the values go into the array
 //console.log(measurements);//works correctly
@@ -32,4 +32,7 @@ perimeter = measurements[0] + measurements[0] + measurements[1] + measurements[1
 var area;
 area = measurements[0] * measurements[1];
 //testing area calculations
-console.log(area);
+//console.log(area);//works
+
+//figuring out how many cards can be used to cover one row of the height of the wall
+var numCardsHeight = measurements[1] / measurements[3];
