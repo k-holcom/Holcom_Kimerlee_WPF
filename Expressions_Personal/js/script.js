@@ -41,3 +41,5 @@ var cupsPerWeek = cupsPerDay * daysPerWeekCoffeeDrank;
 
 //calculating per year
 cupsPerYear = cupsPerWeek * 52;
+//testing the result variable cupsPerYear
+//console.log(cupsPerYear); //works correctly
