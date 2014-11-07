@@ -55,3 +55,6 @@ yearsIntoFuture = prompt("Enter a number of how many years into the future you w
 futureNumOfCups = cupsPerYear * yearsIntoFuture;
 //testing the calculations
 //console.log(futureNumOfCups);//Works correctly
+
+//final alert
+alert("In " + yearsIntoFuture + " you will drink " + futureNumOfCups + " cups of coffee.");
