@@ -37,4 +37,7 @@ area = measurements[0] * measurements[1];
 //figuring out how many cards can be used to cover one row of the height of the wall
 var numCardsHeight = measurements[1] / measurements[3];
 //testing to see if calculation works
-console.log(numCardsHeight);
+//console.log(numCardsHeight);//works
+
+//figuring out how many cards to go across the width
+var numCardsWidth = measurements[0] / measurements[2];
