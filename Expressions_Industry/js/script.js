@@ -56,3 +56,4 @@ var areaOfPercentage = totalArea * percent;
 percent *= 100;
 //adding alert to let the user know the answer.
 alert("The number of pixels in " + percent + "% of your work space is " + areaOfPercentage + " pixels.");
+console.log("The number of pixels in " + percent + "% of your work space is " + areaOfPercentage + " pixels.");

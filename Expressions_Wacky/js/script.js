@@ -62,3 +62,5 @@ measurements[1] = measurements[1] / 12;
 alert("To cover the perimeter of a wall with a width of " + measurements[0] + " feet, and a height of " + measurements[1] + " feet you would need " + numCardsPerimeter + " note cards.");
 
 alert("To cover the entire wall with a width of " + measurements[0] + " feet, and a height of " + measurements[1] + " feet, you would need " + numCardsArea + " note cards.");
+console.log("To cover the perimeter of a wall with a width of " + measurements[0] + " feet, and a height of " + measurements[1] + " feet you would need " + numCardsPerimeter + " note cards.");
+console.log("To cover the entire wall with a width of " + measurements[0] + " feet, and a height of " + measurements[1] + " feet, you would need " + numCardsArea + " note cards.");
