@@ -57,4 +57,4 @@ futureNumOfCups = cupsPerYear * yearsIntoFuture;
 //console.log(futureNumOfCups);//Works correctly
 
 //final alert
-alert("In " + yearsIntoFuture + " you will drink " + futureNumOfCups + " cups of coffee.");
+alert("In " + yearsIntoFuture + " years, you will drink " + futureNumOfCups + " cups of coffee.");
