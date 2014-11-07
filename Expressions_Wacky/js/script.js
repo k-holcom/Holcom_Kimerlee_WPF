@@ -5,3 +5,6 @@
  */
 
 //calculate the number of note cards it would take to cover a wall
+
+var measurements = [];
+
