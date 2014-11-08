@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8c9a8d3-ca27-404f-b713-2291040dace7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Arithmetic Operators/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Values and Variables/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Arithmetic Operators/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Arithmetic Operators/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Arrays/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Using Arrays in Expressions/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Arrays/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Arrays/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Assignment Operators/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/String:Boolean Variables/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Assignment Operators/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Assignment Operators/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/AssociatingJS/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/AssociatingJS/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/AssociatingJS/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/AssociatingJS/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Casting/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Order Of Operations/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Casting/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Casting/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Concatenating/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Modulo/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Concatenating/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Concatenating/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Declaring Variables/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Expressions1/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Declaring Variables/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Declaring Variables/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Defining Variables/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Expression Examples/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Defining Variables/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Defining Variables/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Expression Examples/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Defining Variables/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Expression Examples/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Expression Examples/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Expressions1/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Declaring Variables/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Expressions1/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Expressions1/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Modulo/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Concatenating/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Modulo/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Modulo/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Order Of Operations/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Casting/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Order Of Operations/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Order Of Operations/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Prompts and Alerts/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Prompts and Alerts/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Prompts and Alerts/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Prompts and Alerts/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/String:Boolean Variables/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Assignment Operators/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/String:Boolean Variables/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/String:Boolean Variables/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Using Arrays in Expressions/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Arrays/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Using Arrays in Expressions/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Using Arrays in Expressions/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Values and Variables/index.html" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Arithmetic Operators/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Screencasts/Values and Variables/js/script.js" afterPath="$PROJECT_DIR$/Screencasts/Expressions/Values and Variables/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c8c9a8d3-ca27-404f-b713-2291040dace7" name="Default" comment="" />
     <ignored path="Holcom_Kimerlee_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,24 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Conditional  Examples/index.html">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Relational Expressions/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.27631578" vertical-offset="0" max-vertical-offset="380">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Conditional  Examples/js/script.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Relational Expressions/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.118421055" vertical-offset="0" max-vertical-offset="380">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,6 +87,7 @@
         <option value="$PROJECT_DIR$/Expressions_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/Screencasts/Conditionals/Conditional  Examples/index.html" />
         <option value="$PROJECT_DIR$/Screencasts/Conditionals/Conditional  Examples/js/script.js" />
+        <option value="$PROJECT_DIR$/Screencasts/Conditionals/Relational Expressions/js/script.js" />
       </list>
     </option>
   </component>
@@ -130,12 +95,12 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="822" />
-    <option name="y" value="367" />
-    <option name="width" value="614" />
+    <option name="x" value="113" />
+    <option name="y" value="203" />
+    <option name="width" value="1090" />
     <option name="height" value="477" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -208,7 +173,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Conditional  Examples" />
+              <option name="myItemId" value="Relational Expressions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Holcom_Kimerlee_WPF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Holcom_Kimerlee_WPF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Screencasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Relational Expressions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,10 +224,6 @@
               <option name="myItemId" value="Conditional  Examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -250,12 +237,13 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.editor" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Screencasts/Conditionals/Relational Expressions" />
       <recent name="$PROJECT_DIR$/Expressions_Wacky" />
       <recent name="$PROJECT_DIR$/Expressions_Personal" />
     </key>
@@ -330,7 +318,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="822" y="367" width="614" height="477" extended-state="0" />
+    <frame x="113" y="203" width="1090" height="477" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -338,7 +326,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.267101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15045871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -368,6 +356,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,23 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Expressions_Personal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#72#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
@@ -737,21 +709,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Conditional  Examples/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="380">
+          <caret line="11" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Conditional  Examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+        <state vertical-scroll-proportion="0.2949438" vertical-offset="0" max-vertical-offset="356">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Conditional  Examples/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Relational Expressions/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.118421055" vertical-offset="0" max-vertical-offset="380">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screencasts/Conditionals/Relational Expressions/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27631578" vertical-offset="0" max-vertical-offset="380">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
