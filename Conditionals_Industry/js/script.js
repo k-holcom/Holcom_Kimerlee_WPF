@@ -55,5 +55,10 @@ var area;
 width = prompt("What is the width of your smallest screen? (in inches)");
 length = prompt("What is the length of your smallest screen? (in inches)");
 
-
-
+//validation
+if(width === ""){
+    width = prompt("Sorry, you did not enter a value. Please enter the width (in inches).");
+}
+if(length === ""){
+    length = prompt("Sorry, you did not enter a value. Please enter a length (in inches).");
+}
