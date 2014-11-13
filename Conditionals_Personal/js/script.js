@@ -18,5 +18,13 @@ if(amPM === ""){
     amPM = prompt("Sorry, you did not enter a valid value. Please enter if it is AM or PM");
 }
 
-time = time - 12;
-console.log(time);
+//time = time - 12;
+//console.log(time);
+if(amPM === "AM") {
+    if (time == 12) {
+        time = time - 12;
+        //console.log(time);
+        console.log("It is 0" + time + "00 in military time.");
+        alert("It is 0" + time + "00 in military time.");
+    }
+}
