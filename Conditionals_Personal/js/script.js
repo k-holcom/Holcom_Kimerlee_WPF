@@ -42,5 +42,10 @@ if(amPM === "AM") {
     if(time == 12){
         console.log("It is " + time + "00 in military time.");
         alert("It is " + time + "00 in military time.");
+    }else{
+        time = parseInt(time);
+        time += 12;
+        console.log("It is " + time + "00 in military time.");
+        alert("It is " + time + "00 in military time.");
     }
 }
