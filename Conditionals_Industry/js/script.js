@@ -69,3 +69,7 @@ area = parseInt(width) * parseInt(length);
 
 //if area is less than 35, use a mobile screen, otherwise, use desktop
 screenSize = (area <= 35) ? "mobile" : "desktop";
+
+//alerting user which size is better, as well as printing to console.
+console.log("You need to make a " + screenSize + " site.");
+alert("You need to make a " + screenSize + " site.");
