@@ -36,4 +36,11 @@ if(amPM === "AM") {
         console.log("It is 0" + time + "00 in military time.");
         alert("It is 0" + time + "00 in military time.");
     }
+//If PM, then add 12 to the hour, except for noon you do nothing to noon
+}else if(amPM === "PM"){
+    //if noon, leave alone and just add 00, if between 1 and 11 pm, add 12 to each hour and 00 at the end.
+    if(time == 12){
+        console.log("It is " + time + "00 in military time.");
+        alert("It is " + time + "00 in military time.");
+    }
 }
