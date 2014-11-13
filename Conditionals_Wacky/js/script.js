@@ -21,3 +21,9 @@ if(numOfPeople === "" || numOfPeople < 1){
 if(numOnEachTeam === "" || numOnEachTeam < 1){
     numOnEachTeam = prompt("Sorry, you either entered no answer or an answer less than 1. Please enter a valid number:");
 }
+
+
+//result variable
+var numOfTeams =(numOfPeople / numOnEachTeam);
+var numOfPeopleLeft = numOfPeople % numOfPeopleLeft;
+}
