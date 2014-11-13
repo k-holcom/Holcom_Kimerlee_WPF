@@ -62,3 +62,10 @@ if(width === ""){
 if(length === ""){
     length = prompt("Sorry, you did not enter a value. Please enter a length (in inches).");
 }
+
+
+//calculating area
+area = parseInt(width) * parseInt(length);
+
+//if area is less than 35, use a mobile screen, otherwise, use desktop
+screenSize = (area <= 35) ? "mobile" : "desktop";
