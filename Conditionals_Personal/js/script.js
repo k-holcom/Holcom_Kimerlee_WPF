@@ -20,10 +20,19 @@ if(amPM === ""){
 
 //time = time - 12;
 //console.log(time);
+//If AM, then time remains the same for the most part just need to format. Only time that is different is midnight.
 if(amPM === "AM") {
-    if (time == 12) {
+    //If Midnight, subtract 12 to get 0. If 10 or 11, just add 00, if 1-9 add 0 before and 00 after.
+    if (time == 12) { // must use == to be able to get the value to register.
         time = time - 12;
         //console.log(time);
+        console.log("It is 0" + time + "00 in military time.");
+        alert("It is 0" + time + "00 in military time.");
+    }else if(time == 11 || time == 10){
+        //console.log(time);
+        console.log("It is " + time + "00 in military time.");
+        alert("It is " + time + "00 in military time.");
+    }else{
         console.log("It is 0" + time + "00 in military time.");
         alert("It is 0" + time + "00 in military time.");
     }
