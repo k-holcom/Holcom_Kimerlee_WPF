@@ -3,6 +3,38 @@
  * November 12, 2014
  * Conditionals - Industry Assignment
  */
+//Second attempt at the assignment
+//Figuring out if a mobile or desktop site is needed by seeing what area is of the screen.
+
+//declaring variables needed
+var width;
+var length;
+
+//declaring result variables
+var area;
+//receiving information from user
+width = prompt("What is the width of your smallest screen? (in inches)");
+length = prompt("What is the length of your smallest screen? (in inches)");
+
+//validation
+if(width === ""){
+    width = prompt("Sorry, you did not enter a value. Please enter the width (in inches).");
+}
+if(length === ""){
+    length = prompt("Sorry, you did not enter a value. Please enter a length (in inches).");
+}
+
+
+//calculating area
+area = parseInt(width) * parseInt(length);
+
+//if area is less than 35, use a mobile screen, otherwise, use desktop
+screenSize = (area <= 35) ? "mobile" : "desktop";
+
+//alerting user which size is better, as well as printing to console.
+console.log("You need to make a " + screenSize + " site.");
+alert("You need to make a " + screenSize + " site.");
+
 //determining if a website will need an e-commerce aspect to it
 //declaring the variable
 /*var businessOrPersonal;
@@ -42,34 +74,3 @@ if(businessOrPersonal === "business"){
     }
 }*/ //Old Code (Realized after I finished it that I needed to have math involved.)
 
-//Second attempt at the assignment
-//Figuring out if a mobile or desktop site is needed by seeing what area is of the screen.
-
-//declaring variables needed
-var width;
-var length;
-
-//declaring result variables
-var area;
-//receiving information from user
-width = prompt("What is the width of your smallest screen? (in inches)");
-length = prompt("What is the length of your smallest screen? (in inches)");
-
-//validation
-if(width === ""){
-    width = prompt("Sorry, you did not enter a value. Please enter the width (in inches).");
-}
-if(length === ""){
-    length = prompt("Sorry, you did not enter a value. Please enter a length (in inches).");
-}
-
-
-//calculating area
-area = parseInt(width) * parseInt(length);
-
-//if area is less than 35, use a mobile screen, otherwise, use desktop
-screenSize = (area <= 35) ? "mobile" : "desktop";
-
-//alerting user which size is better, as well as printing to console.
-console.log("You need to make a " + screenSize + " site.");
-alert("You need to make a " + screenSize + " site.");
