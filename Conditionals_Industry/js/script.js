@@ -30,6 +30,14 @@ if(businessOrPersonal === "business"){
     //if they are not selling merchandise, they do not need an e-commerce aspect
     }else{
         console.log("You do not need to have an e-commerce aspect to your website.");
-        alert.log("You do not need to have an e-commerce aspect to your website.");
+        alert("You do not need to have an e-commerce aspect to your website.");
+    }
+}else if(businessOrPersonal === "personal"){
+    if(sellingMerchandise === "yes") {
+        console.log("You do not need to purchase an e-commerce aspect to your website, PayPal should work just fine.");
+        alert("You do not need to purchase an e-commerce aspect to your website, PayPal should work just fine.");
+    }else{
+        console.log("You do not need to have an e-commerce aspect to your website.");
+        alert("You do not need to have an e-commerce aspect to your website.");
     }
 }
