@@ -5,7 +5,7 @@
  */
 //determining if a website will need an e-commerce aspect to it
 //declaring the variable
-var businessOrPersonal;
+/*var businessOrPersonal;
 var sellingMerchandise;
 
 //asking User for the information needed
@@ -40,4 +40,6 @@ if(businessOrPersonal === "business"){
         console.log("You do not need to have an e-commerce aspect to your website.");
         alert("You do not need to have an e-commerce aspect to your website.");
     }
-}
+}*/ //Old Code (Realized after I finished it that I needed to have math involved.)
+
+//Second attempt at the assignment
