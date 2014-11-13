@@ -21,3 +21,15 @@ if(businessOrPersonal === ""){
 if(sellingMerchandise === ""){
     sellingMerchandise = prompt("Sorry, you left this blank, please enter whether you are selling merchandise (yes or no).");
 }
+
+//if the user has a business site and is selling merchandise, they need an e-commerce aspect to their website
+if(businessOrPersonal === "business"){
+    if(sellingMerchandise === "yes"){
+        console.log("You need to have an e-commerce aspect to your website.");
+        alert("You need to have an e-commerce aspect to your website.");
+    //if they are not selling merchandise, they do not need an e-commerce aspect
+    }else{
+        console.log("You do not need to have an e-commerce aspect to your website.");
+        alert.log("You do not need to have an e-commerce aspect to your website.");
+    }
+}
