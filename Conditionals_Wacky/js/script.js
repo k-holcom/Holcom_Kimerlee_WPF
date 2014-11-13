@@ -25,12 +25,19 @@ if(numOnEachTeam === "" || numOnEachTeam < 1){
 
 //result variable
 var numOfTeams =(numOfPeople / numOnEachTeam);
-var numOfPeopleLeft = numOfPeople % numOfPeopleLeft;
+var numOfPeopleLeft = numOfPeople % numOnEachTeam;
 
 
 //if there are 0 or 1 team(s) then there are not enough people to play as teams
-if(numOfTeams.toFixed(0) == 0 || numOfTeams.toFixed(0) == 1){
+if(Math.floor(numOfTeams) == 0 || Math.floor(numOfTeams) == 1){
     console.log("There are not enough people to play as teams. Find another game.");
     alert("There are not enough people to play as teams. Find another game.");
-
+}else {
+    if (numOfPeopleLeft >= 1) {
+        console.log("There are enough people to play as " + Math.floor(numOfTeams) + " teams but there are " + numOfPeopleLeft + " people without a team.");
+        alert("There are enough people to play as " + Math.floor(numOfTeams) + " teams but there are " + numOfPeopleLeft + " people without a team.");
+    } else {
+        console.log("There are enough people to play as " + Math.floor(numOfTeams) + " teams.");
+        alert("There are enough people to play as " + Math.floor(numOfTeams) + " teams.");
+    }
 }
