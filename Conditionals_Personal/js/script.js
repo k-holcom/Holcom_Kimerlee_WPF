@@ -17,3 +17,22 @@ if(time === "" || time > 12 || time < 1){
 if(amPM === ""){
     amPM = prompt("Sorry, you did not enter a valid value. Please enter if it is AM or PM");
 }
+
+//If AM, then no extreme changes needed to times, just formatting
+if(amPM === "AM"){
+    //if it is midnight(aka 12 AM) military time needs to be 0000
+    if(time === 12){
+        time -= 12;
+        console.log("It is currently 0" + time + "00 in military time.");
+        alert("It is currently 0" + time + "00 in military time.")
+    }else if(time === 10 || time === 11){
+        console.log("It is currently " + time + "00 in military time.");
+        alert("It is currently " + time + "00 in military time.")
+    }else if(time >= 1 || time <=9){
+        console.log("It is currently 0" + time + "00 in military time.");
+        alert("It is currently 0" + time + "00 in military time.")
+    }
+//Otherwise, each hour needs to be changed by adding 12 to it.
+}else{
+
+}
