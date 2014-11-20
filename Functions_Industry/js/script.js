@@ -9,3 +9,11 @@
 var budget = prompt("What is your budget (in dollars)?");
 var logo = prompt("Do you need a logo?");
 var numberOfPages = prompt("How many pages do you need?");
+
+//creating function
+function calcBudget(budget, logo, numOfPages){
+    //creating while loop for validation
+    while(budget === ""){
+        budget = prompt("You did not enter a budget. Please enter your budget.")
+    }
+}
