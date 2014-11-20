@@ -18,3 +18,23 @@ while( daysInMonth === "" || daysInMonth < 28 || daysInMonth > 31 || dayOfTheMon
         dayOfTheMonth = prompt("You either forgot to enter something, or entered and invalid number. Please enter a number between 1 and 31.");
     }
 }
+
+//creating anonymous function
+var calcMin = function(days){
+    //calculate the number of minutes in the entire month
+    var entireMonth = 60 * (24 * days);
+
+    //returning minutes for entire month
+    return entireMonth;
+}
+
+function minLeft(days, date){
+    //calculating number of days remaining and the number of minutes left.
+    var minLeft = ((days - date) * 24) * 60;
+
+    //returning minutes left in the month
+    return minLeft;
+}
+
+
+
