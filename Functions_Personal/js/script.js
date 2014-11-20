@@ -18,3 +18,13 @@ while(numOfGuests === "" || howManyEatLeftovers ===""){
         howManyEatLeftovers = prompt("Please enter how many of your guests will probably have leftovers.");
     }
 }
+//creating function.
+function turkey(guests, leftovers){
+    //variables... one pound of turkey per guest for dinner and 1/2 pound per person eating leftovers.
+    var turkeyForDinner =  guests;
+    var turkeyLeftovers = leftovers * .5;
+    var totalTurkey = turkeyForDinner + turkeyLeftovers;
+
+    //returning totalTurkey
+    return totalTurkey;
+}
