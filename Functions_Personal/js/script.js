@@ -23,8 +23,16 @@ function turkey(guests, leftovers){
     //variables... one pound of turkey per guest for dinner and 1/2 pound per person eating leftovers.
     var turkeyForDinner =  guests;
     var turkeyLeftovers = leftovers * .5;
-    var totalTurkey = turkeyForDinner + turkeyLeftovers;
+    var totalTurkey = parseInt(turkeyForDinner) + turkeyLeftovers;
 
     //returning totalTurkey
     return totalTurkey;
 }
+//result variable
+var turkeyInPounds = turkey(numOfGuests, howManyEatLeftovers);
+
+//printing to alert and to console using ternary statement
+var result =  (turkeyInPounds <= 10) ? "A 10 lb turkey will be fine. You only require a minimum of " + turkeyInPounds + " pounds of turkey" : "You need a turkey of at least " + turkeyInPounds + " pounds.";
+
+console.log(result);
+alert(result);
