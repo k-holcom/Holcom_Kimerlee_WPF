@@ -17,3 +17,6 @@ var circumference  = function(radius){
     //returning the circumference.
     return circumference;
 }
+
+//creating a variable to hold the
+var c = circumference(rad);
