@@ -13,5 +13,7 @@ var rad = prompt("What is the radius of the circle?");
 var circumference  = function(radius){
     // calculating cirucmference
     var circumference = (2 * radius) * 3.14;
-}
 
+    //returning the circumference.
+    return circumference;
+}
