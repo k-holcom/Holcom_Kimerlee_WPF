@@ -47,6 +47,15 @@ function calcBudget(budget, logo, numOfPages){
     return total;
 }
 //result variable used for final calculation.
-var whatsLeft = calcBudget(budget, logo, numberOfPages);
-console.log(whatsLeft);
+var totalCostOfProject = calcBudget(budget, logo, numberOfPages);
 
+//to see if the requirements fit the budget, must take the total of the project away from the budget. if there is more than or equal to $0 it fits the budget if it is less than 0, then it does not fit the budget.
+var whatsLeft = budget - totalCostOfProject;
+if(whatsLeft >= 0){
+    console.log("With the information given, your project would fit into your budget. You would have $" + whatsLeft + " left.");
+    alert("With the information given, your project would fit into your budget. You would have $" + whatsLeft + " left.");
+}else{
+    whatsLeft = 0 - whatsLeft;
+    console.log("You were over your budget by $" + whatsLeft+ ".");
+    alert("You were over your budget by $" + whatsLeft+ ".");
+}
