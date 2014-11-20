@@ -32,5 +32,12 @@ var weight = prompt("What is the victim's weight (in pounds)?");
 function stung(weight){
     //calculating number of stings
     var numOfStings = weight * 8.666666667;
-
+    //returning numOfStings
+    return numOfStings;
 }
+
+//putting result into a variable
+var stings = stung(weight);
+
+//printing to console
+console.log(stings);
