@@ -7,7 +7,7 @@
 
 //variable declaration/prompts
 var budget = prompt("What is your budget (in dollars)?");
-var logo = prompt("Do you need a logo?");
+var logo = prompt("Do you need a logo made?");
 var numberOfPages = prompt("How many pages do you need?");
 
 // /validation
@@ -26,5 +26,27 @@ while(budget === "" || logo === "" || numberOfPages === "") {
 
 //function
 function calcBudget(budget, logo, numOfPages){
-    
+
+
+    //variable for the total of the project, and total cost of pages.
+    var total = 0;
+    var totalCostOfPages = 0;
+    //if logo is needed, then add $50 to the total.
+    if(logo === "yes"){
+        total += 50;
+    }
+    //if the number of pages is between 1 and 10 charged full price then total cost of the pages is added to total.
+    if(numOfPages > 0 && numOfPages < 10){
+        totalCostOfPages = numOfPages * 100
+        total += totalCostOfPages;
+    //if  the number of pages is greater then 10, then a discount of 20% is given then added to the total.
+    }else if(numOfPages > 10){
+        totalCostOfPages = .8 * (numOfPages * 100);
+        total += totalCostOfPages;
+    }
+    return total;
 }
+//result variable used for final calculation.
+var whatsLeft = calcBudget(budget, logo, numberOfPages);
+console.log(whatsLeft);
+
