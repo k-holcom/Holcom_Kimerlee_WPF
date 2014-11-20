@@ -36,5 +36,9 @@ function minLeft(days, date){
     return minLeft;
 }
 
+//result variables
+var month = calcMin(daysInMonth);
+var minsLeft = minLeft(daysInMonth, dayOfTheMonth);
 
-
+console.log("There are " + month + " total minutes in the current month, and there are " + minsLeft + " minutes left in the month.")
+alert("There are " + month + " total minutes in the current month, and there are " + minsLeft + " minutes left in the month.");
