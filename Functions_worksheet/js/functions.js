@@ -23,3 +23,7 @@ var c = circumference(rad);
 
 //printing the result
 console.log(c);
+
+//Stung!
+//declaring variable and getting user information
+var weight = prompt("What is the victim's weight (in pounds)?");
