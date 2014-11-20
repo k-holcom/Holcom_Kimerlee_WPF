@@ -20,3 +20,6 @@ var circumference  = function(radius){
 
 //creating a variable to hold the
 var c = circumference(rad);
+
+//printing the result
+console.log(c);
